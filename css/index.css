@@ -88,7 +88,7 @@ p {
   height: auto;
   z-index: -1;
   overflow: hidden;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 ul {
@@ -1140,7 +1140,7 @@ article {
 /* Footer Styles */
 
 .social-wrap {
-  width: 1200px;
+  width: 1743px;
 
   height: 250px;
 
@@ -1158,6 +1158,8 @@ article {
 }
 
 .email-submit {
+  width: 1300px;
+
   font-family: "New Baskerville";
 
   font-style: italic;
@@ -1182,11 +1184,11 @@ article {
 }
 
 .email-submit__input-text {
-  width: 1100px;
+  width: 1250px;
 
   height: 72px;
 
-  font-size: 40px;
+  font-size: 36px;
 
   font-family: "New Baskerville";
 
@@ -1231,17 +1233,19 @@ article {
 }
 
 .social-menu__wrap {
+  width: 1280px;
+
   display: flex;
 
   align-items: center;
+
+  justify-content: space-between;
 }
 
 .social-menu__sns {
   display: flex;
 
   justify-content: flex-start;
-
-  margin-right: 250px;
 }
 
 .social-menu__sns li {
@@ -1263,11 +1267,17 @@ article {
 }
 
 .social-menu__menu-list li {
-  font-size: 8px;
+  font-size: 10px;
+
+  font-weight: 400;
 
   margin-right: 30px;
 
-  letter-spacing: 2px;
+  letter-spacing: 2.67px;
+}
+
+.social-menu__menu-list li span{
+  color: rgba(255,255,255,0.5);
 }
 
 .footer-nav__wrap {
@@ -1284,26 +1294,30 @@ article {
   display: flex;
 
   justify-content: space-evenly;
+
+  padding: 0 0 20px;
 }
 
 .footer-nav__list li {
-  letter-spacing: 2px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.67px;
 }
 
 .copyright {
+  font-size: 10px;
+  font-weight: 700;
   text-align: center;
-
   margin-bottom: 30px;
-
-  letter-spacing: 1.3px;
+  letter-spacing: 2.67px;
 }
 
 .warning {
+  font-size: 10px;
+  font-weight: 700;
   text-align: center;
-
   margin-bottom: 50px;
-
-  letter-spacing: 1.3px;
+  letter-spacing: 2.67px;
 }
 
 .contents-box__small_wrap-box {
