@@ -639,7 +639,7 @@ article {
 .contents-box__medium_text_2:hover {
   padding: 0 0 88px;
   text-decoration: none;
-  background: rgba(73, 71, 71, 0.1);
+  background: rgba(138, 235, 162, 0.1);
 }
 
 .contents-box__medium_text_3:hover {
@@ -1140,7 +1140,7 @@ article {
 /* Footer Styles */
 
 .social-wrap {
-  width: 1743px;
+  width: 1343px;
 
   height: 250px;
 
