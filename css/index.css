@@ -631,19 +631,19 @@ article {
 }
 
 .contents-box__medium_text_1:hover {
-  padding: 0 0 88px;
+  padding: 0 0 55px;
   text-decoration: none;
   background: rgba(238, 126, 219, 0.1);
 }
 
 .contents-box__medium_text_2:hover {
-  padding: 0 0 88px;
+  padding: 0 0 55px;
   text-decoration: none;
   background: rgba(138, 235, 162, 0.1);
 }
 
 .contents-box__medium_text_3:hover {
-  padding: 0 0 88px;
+  padding: 0 0 55px;
   text-decoration: none;
   background: rgba(73, 71, 71, 0.1);
 }
